@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HeaderLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/header_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/row_label_margin</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+    <!-- Row -->
+    <style name="FirstNameRowLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/first_name_row_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+    <style name="LastNameRowLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/first_name_row_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+    <!-- Detail Fragment -->
+    <style name="FirstNameLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/first_name_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+    <style name="LastNameLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/last_name_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+    <style name="AgeLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/first_name_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+    <style name="FavoutiteLabel">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/first_name_label_font_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/row_label_margin</item>
+    </style>
+
+</resources>
